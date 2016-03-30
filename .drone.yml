@@ -1,4 +1,5 @@
 build:
-  image: node:wheezy
+  image: node:onbuild
   commands:
+    - npm install
     - npm run start
