@@ -1,4 +1,4 @@
 build:
   image: node
   commands:
-    - npm run
+    - npm run start
